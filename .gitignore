@@ -1,0 +1,23 @@
+# dependencies / build
+node_modules/
+out/
+dist/
+*.log
+*.tsbuildinfo
+
+# copyrighted or user-generated media — NEVER commit (bring your own assets)
+*.mp3
+*.mp4
+*.wav
+*.mid
+*.midi
+public/song.json
+
+# local analysis scratch
+y*.txt
+chk_*.png
+bright_*.png
+
+# OS
+Thumbs.db
+.DS_Store

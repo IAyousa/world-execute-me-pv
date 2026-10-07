@@ -1,0 +1,6 @@
+# keep diffs clean across OS/agents: LF in the repo, no CRLF churn
+* text=auto eol=lf
+*.png binary
+*.mp3 binary
+*.wav binary
+*.mp4 binary

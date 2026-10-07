@@ -1,0 +1,23 @@
+{
+  "name": "world-execute-me-pv",
+  "version": "1.0.0",
+  "description": "Terminal fan PV for Mili's world.execute(me); — all-monospace Remotion render, MIDI-driven, bring-your-own assets",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "audit:grid": "esbuild scripts/audit_grid.ts --bundle --platform=node --outfile=out/audit_grid.cjs --log-level=error && node out/audit_grid.cjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/cli": "^4.0.532",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.532"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/web": "^0.0.357",
+    "typescript": "^7.0.2"
+  },
+  "type": "module"
+}
